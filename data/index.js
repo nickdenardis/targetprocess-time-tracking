@@ -12,11 +12,15 @@ var pattern = /^https:\/\/(.*?).tpondemand.com\/(.*?)$/
 var m = href.match(pattern);
 var subdomain = m[1];
 
+// Detect when viewing a card
 setInterval(function () {
     var entity = document.getElementsByClassName('entity-id__link');
     if (entity.length != 0 && entity[0].innerHTML != entity_id) {
         entity_id = entity[0].innerHTML;
         attachEntity();
+    }
+    if (entity.length == 0) {
+        entity_id = null;
     }
 }, 2000);
 
