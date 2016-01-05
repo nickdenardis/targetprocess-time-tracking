@@ -18,7 +18,7 @@ setInterval(function () {
         entity_id = entity[0].innerHTML;
         attachEntity();
     }
-}, 3000);
+}, 2000);
 
 // Attach to entity
 var attachEntity = function () {
