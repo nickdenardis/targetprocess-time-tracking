@@ -27,3 +27,8 @@ Firefox Add-on:
 Chrome Extension:
 
     $ zip -r targetprocess-time-tracking.zip manifest.json data img lib
+
+
+### Disclaimer
+
+[TargetProcess](https://www.targetprocess.com/) (product of [Taucraft Limited](http://taucraft.com/)) and [Harvest](https://www.getharvest.com/) are trademarks and registered in the U.S. and other countries.
