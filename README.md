@@ -1,9 +1,9 @@
-TargetProcess 3 Time Tracking
+TargetProcess 3 Harvest Time Tracking
 ====================
 
 Add time tracking to TargetProcess 3 cards with [Harvest](http://try.hrv.st/3-12573).
 
-![TargetProcess Time Tracking]()
+![TargetProcess Time Tracking](https://raw.githubusercontent.com/nickdenardis/targetprocess-time-tracking/master/img/targetprocess-time-tracking-440x280.png)
 
 Usage
 -----

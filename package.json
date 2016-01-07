@@ -1,8 +1,8 @@
 {
-    "fullName": "TargetProcess Time Tracking",
+    "fullName": "TargetProcess 3 Harvest Time Tracking",
     "name": "targetprocess-time-tracking",
     "description": "Add time tracking to TargetProcess 3 with Harvest.",
-    "license": "",
+    "license": "MIT",
     "contributors": [],
     "author": "Nick DeNardis <nick.denardis@gmail.com>",
     "url": "",
@@ -13,8 +13,8 @@
         "api-utils",
         "addon-kit"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "lib": "lib",
     "main": "main",
-    "id": "jid0-bAfvy46pqbx8KSUnGc156Ng6bVM"
+    "id": "lkkedgoebnekpinhipgelkfbbdjfookh"
 }
