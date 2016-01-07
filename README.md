@@ -8,7 +8,7 @@ Add time tracking to TargetProcess 3 cards with [Harvest](http://try.hrv.st/3-12
 Usage
 -----
 1. Register the [free Harvest account](http://try.hrv.st/3-12573).
-2. Install the [Google Chrome Extension]().
+2. Install the [Google Chrome Extension](https://chrome.google.com/webstore/detail/lkkedgoebnekpinhipgelkfbbdjfookh).
 3. Whenever you visit the issues page on GitHub a new button appears next to the "Follow" link
 4. With one click you can start to track the time. The dialog also shows the sum of time already spent by you on this ticket.
 5. Harvest provides great [project reports](http://try.hrv.st/3-12573) - with links back to the TargetProcess tickets.
