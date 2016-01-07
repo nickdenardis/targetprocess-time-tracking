@@ -13,7 +13,7 @@
         "api-utils",
         "addon-kit"
     ],
-    "version": "0.0.0",
+    "version": "0.1.0",
     "lib": "lib",
     "main": "main",
     "id": "jid0-bAfvy46pqbx8KSUnGc156Ng6bVM"
