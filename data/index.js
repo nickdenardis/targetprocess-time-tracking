@@ -67,7 +67,7 @@ var attachEntity = function () {
 }
 
 // Overwrite the Harvest pop up to increase z-index
-var css = '#harvest-iframe-container, body div#harvest-iframe-container { z-index: 999999 !important; }',
+var css = '#harvest-iframe-container, body div#harvest-iframe-container, #harvest-iframe, body .harvest-overlay { z-index: 999999 !important; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 style.type = 'text/css';
