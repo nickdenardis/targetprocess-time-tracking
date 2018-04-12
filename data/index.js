@@ -14,7 +14,8 @@ var subdomain = m[1];
 
 // Detect when viewing a card
 setInterval(function () {
-    var entity = document.getElementsByClassName('entity-id__link');
+    var entity = document.getElementsByClassName('entity-id');
+
     if (entity.length != 0 && entity[0].innerHTML != entity_id) {
         entity_id = entity[0].innerHTML;
         attachEntity();
@@ -36,8 +37,8 @@ var attachEntity = function () {
         entity_project = document.getElementsByClassName('tau-property-project')[0].innerText;
     }
 
-    div.setAttribute('data-account', JSON.stringify({'id': subdomain}));
-    div.setAttribute('data-project', JSON.stringify({'id': entity_project, 'name': entity_project}));
+    div.setAttribute('data-account', JSON.stringify({ 'id': subdomain }));
+    div.setAttribute('data-project', JSON.stringify({ 'id': entity_project, 'name': entity_project }));
     div.setAttribute('data-item', JSON.stringify({
         'id': entity_id.replace(/\D/g, ''),
         'name': entity_id + ' ' + entity_title
@@ -50,7 +51,7 @@ var attachEntity = function () {
     // Tell Harvest a new timer was added
     if (document.querySelector("#harvest-messaging")) {
         var event = new CustomEvent("harvest-event:timers:add", {
-            detail: {element: document.getElementsByClassName('harvest-timer')[0]}
+            detail: { element: document.getElementsByClassName('harvest-timer')[0] }
         });
 
         document.querySelector("#harvest-messaging").dispatchEvent(event);

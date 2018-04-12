@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.1.5] - 2018-04-12
+### Fixes #1 - Extension now works with TargetProcess v.3.12.8
+- Updated to target the new TargetProcess HTML
 ## [0.1.4] - 2015-02-04
 ### Z-Index override
 - Increased the container to a higher z-index
