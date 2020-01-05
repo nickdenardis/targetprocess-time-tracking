@@ -45,8 +45,8 @@ var attachEntity = function () {
     }));
 
     // Add the button to the page
-    var el = document.getElementsByClassName('view-header__link')[0];
-    el.parentNode.insertBefore(div, el);
+    var el = document.getElementsByClassName('view-header__name')[0];
+    el.parentNode.appendChild(div);
 
     // Tell Harvest a new timer was added
     if (document.querySelector("#harvest-messaging")) {
