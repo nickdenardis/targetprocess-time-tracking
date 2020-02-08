@@ -22,7 +22,7 @@ Code is available in GitHub. Once you download / clone the code to your computer
 
 Firefox Add-on:
 
-    $ cfx xpi
+    $ zip -r -FS ../targetprocess-time-tracking.zip * --exclude *.git*
 
 Chrome Extension:
 
