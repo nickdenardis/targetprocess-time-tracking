@@ -1,6 +1,6 @@
 {
     "name": "TargetProcess 3 Harvest Time Tracking",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "manifest_version": 2,
     "description": "Add time tracking to TargetProcess 3 with Harvest.",
     "icons": {
@@ -9,19 +9,13 @@
         "16": "img/targetprocess-time-tracker-16.png"
     },
     "background": {
-        "scripts": [
-            "lib/background.js"
-        ],
+        "scripts": ["lib/background.js"],
         "persistent": true
     },
     "content_scripts": [
         {
-            "js": [
-                "data/index.js"
-            ],
-            "matches": [
-                "https://*.tpondemand.com/*"
-            ]
+            "js": ["data/index.js"],
+            "matches": ["https://*.tpondemand.com/*"]
         }
     ],
     "content_security_policy": "script-src 'self' https://*.harvestapp.com; object-src 'self'",
@@ -31,5 +25,10 @@
         "https://*.tpondemand.com/*",
         "https://*.harvestapp.com/*",
         "tabs"
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "nick.denardis@gmail.com"
+        }
+    }
 }
