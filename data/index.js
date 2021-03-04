@@ -3,8 +3,8 @@ var entity_id = null;
 // Button to click
 var div = document.createElement('div');
 div.className = 'harvest-timer tau-container view-header__link tau-followlink';
-div.style.width = 'auto';
-div.style.height = 'auto';
+div.style.width = '20px';
+div.style.height = '20px';
 
 // Get the subdomain of the account
 var href = window.location.href;
